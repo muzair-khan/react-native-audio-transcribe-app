@@ -13,8 +13,8 @@ Before starting, ensure you have the correct versions of Node.js and npm install
 Run the following commands in your terminal to verify your Node.js and npm versions:
 
 ```bash
-- Node.js: 20.16.0
-- Npm: 10.8.1
+- Node.js: 22.6.0
+- Npm: 10.8.2
 ```
 
 ## Step 1: Start the Metro Server
