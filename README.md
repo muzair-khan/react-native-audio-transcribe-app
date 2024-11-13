@@ -4,11 +4,11 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-# Prerequisites
+## Prerequisites
 
 Before starting, ensure you have the correct versions of Node.js and npm installed.
 
-# Check your Node.js and npm Versions
+## Check your Node.js and npm Versions
 
 Run the following commands in your terminal to verify your Node.js and npm versions:
 
