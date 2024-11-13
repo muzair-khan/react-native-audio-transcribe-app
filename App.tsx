@@ -15,7 +15,9 @@ const App = (): React.JSX.Element => {
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle={'dark-content'} backgroundColor={Colors.lighter} />
       <Header />
-      <Transcript />
+      {Array.from({length: 10}).map(() => (
+        <Transcript />
+      ))}
     </SafeAreaView>
   );
 };
