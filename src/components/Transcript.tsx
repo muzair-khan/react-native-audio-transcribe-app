@@ -5,9 +5,12 @@ import {HEIGHT, WIDTH} from './../utils/constants';
 
 const Transcript = (): JSX.Element => {
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, styles.border]}>
       <View style={styles.textContainer}>
-        <Text style={[styles.text, styles.bgAlign]}>EN</Text>
+        <Text
+          style={[styles.text, styles.bgAlign, styles.border, styles.padding]}>
+          EN
+        </Text>
         <Text style={[styles.text, styles.grow10]}>
           Are you ready to practice?
         </Text>
@@ -22,6 +25,7 @@ const styles = StyleSheet.create({
   container: {
     marginTop: HEIGHT / 35,
     marginHorizontal: WIDTH / 15,
+    paddingVertical: 10,
     paddingHorizontal: 5,
     justifyContent: 'space-between',
     backgroundColor: '#F6F6F6',
@@ -29,22 +33,29 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     marginVertical: 10,
+    paddingHorizontal: 10,
     flexDirection: 'row',
+    alignItems: 'center',
     gap: 15,
   },
   text: {
-    flexGrow: 1,
-    width: 35,
     fontFamily: 'Outfit-SemiBold',
     fontSize: 15,
     borderRadius: 20,
-    padding: 2,
   },
   bgAlign: {
     textAlign: 'center',
     backgroundColor: Colors.White,
   },
+  padding: {
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+  },
   grow10: {
     flexGrow: 10,
+  },
+  border: {
+    borderWidth: 1,
+    borderColor: '#E7E7E7',
   },
 });

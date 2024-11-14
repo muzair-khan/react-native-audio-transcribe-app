@@ -5,8 +5,8 @@
  * @format
  */
 
-import React from 'react';
-import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
+import React, {JSX} from 'react';
+import {SafeAreaView, ScrollView, StatusBar, StyleSheet} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {Header, Transcript} from './src/components';
 
@@ -15,9 +15,13 @@ const App = (): React.JSX.Element => {
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle={'dark-content'} backgroundColor={Colors.lighter} />
       <Header />
-      {Array.from({length: 10}).map(() => (
-        <Transcript />
-      ))}
+      <ScrollView showsVerticalScrollIndicator={false}>
+        {Array.from({length: 10}).map(
+          (_, i): JSX.Element => (
+            <Transcript key={i} />
+          ),
+        )}
+      </ScrollView>
     </SafeAreaView>
   );
 };
