@@ -8,7 +8,7 @@
 import React, {JSX} from 'react';
 import {SafeAreaView, ScrollView, StatusBar, StyleSheet} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {Header, Transcript} from './src/components';
+import {AudioPlayer, Header, Transcript} from './components';
 
 const App = (): React.JSX.Element => {
   return (
@@ -22,6 +22,7 @@ const App = (): React.JSX.Element => {
           ),
         )}
       </ScrollView>
+      <AudioPlayer />
     </SafeAreaView>
   );
 };
