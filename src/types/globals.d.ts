@@ -10,9 +10,9 @@ declare global {
   }
 
   interface ITranscript {
-    containerStyle: StyleProp<ViewStyle>;
-    textStyle: StyleProp<TextStyle>;
-    onPress: () => void;
+    containerStyle?: StyleProp<ViewStyle>;
+    textStyle?: StyleProp<TextStyle>;
+    onPress?: () => void;
   }
 }
 
