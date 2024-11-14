@@ -1,21 +1,27 @@
 import React, {JSX} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {Colors} from './../utils/colors';
 import {HEIGHT, WIDTH} from './../utils/constants';
 
-const Transcript = (): JSX.Element => {
+const Transcript = ({
+  containerStyle,
+  textStyle,
+  onPress,
+}: ITranscript): JSX.Element => {
   return (
-    <View style={[styles.container, styles.border]}>
+    <TouchableOpacity
+      style={[styles.container, styles.border, containerStyle]}
+      onPress={onPress}>
       <View style={styles.textContainer}>
         <Text
           style={[styles.text, styles.bgAlign, styles.border, styles.padding]}>
           EN
         </Text>
-        <Text style={[styles.text, styles.grow10]}>
+        <Text style={[styles.text, styles.grow10, textStyle]}>
           Are you ready to practice?
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 
@@ -45,7 +51,7 @@ const styles = StyleSheet.create({
   },
   bgAlign: {
     textAlign: 'center',
-    backgroundColor: Colors.White,
+    backgroundColor: Colors.white,
   },
   padding: {
     paddingVertical: 5,
