@@ -6,6 +6,7 @@ import {HEIGHT, WIDTH} from './../utils/constants';
 const Transcript = ({
   containerStyle,
   textStyle,
+  text,
   onPress,
 }: ITranscript): JSX.Element => {
   return (
@@ -17,9 +18,7 @@ const Transcript = ({
           style={[styles.text, styles.bgAlign, styles.border, styles.padding]}>
           EN
         </Text>
-        <Text style={[styles.text, styles.grow10, textStyle]}>
-          Are you ready to practice?
-        </Text>
+        <Text style={[styles.text, styles.grow10, textStyle]}>{text}</Text>
       </View>
     </TouchableOpacity>
   );

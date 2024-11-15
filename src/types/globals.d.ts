@@ -12,6 +12,7 @@ declare global {
   interface ITranscript {
     containerStyle?: StyleProp<ViewStyle>;
     textStyle?: StyleProp<TextStyle>;
+    text: string;
     onPress?: () => void;
   }
 }
