@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNAudioTranscriberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNAudioTranscriberTests.m */; };
-		06E3401724FE4B74AE6D6CED /* Outfit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D495FB697D4883B9943E73 /* Outfit-ExtraLight.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RNAudioTranscriber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNAudioTranscriber.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		337D089C2CE5EC710000AF1D /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D089B2CE5EC710000AF1D /* dummy.swift */; };
-		3D3689166761490FA9451600 /* Outfit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85965BF76DEE496CAC83F307 /* Outfit-ExtraBold.ttf */; };
-		452D6EA24A5A47408DB81767 /* Outfit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19C71ADE1FCC4316A5357567 /* Outfit-Light.ttf */; };
-		4627EC260610CF5A953A1FA5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		203FDFE5C2B54990946150A1 /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F29D7ED972604FB2AAD0D103 /* Outfit-Medium.ttf */; };
+		337D089F2CE6286D0000AF1D /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D089E2CE6286D0000AF1D /* dummy.swift */; };
+		3F9A48E448D9493AAB0470D9 /* Outfit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEA0746F04514DFEA9A3FFE6 /* Outfit-ExtraLight.ttf */; };
+		62D4462E2176495E88DF1145 /* Outfit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B8CC51FCCB45D5B27B29FA /* Outfit-Light.ttf */; };
+		726B739345704EBABCC7DDB4 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BF2E6E23934107BB42CD61 /* Outfit-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-RNAudioTranscriber-RNAudioTranscriberTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNAudioTranscriber-RNAudioTranscriberTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8CB8A94971E842B0AB38A8F0 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D297BD49C44CB9B03C8C0 /* Outfit-Regular.ttf */; };
-		910D1465379049A0A481B1F6 /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F34762349A4A62B311DFEA /* Outfit-Medium.ttf */; };
-		AEBB089BFD6141EDA2FD6DEB /* Outfit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BFCB436764245069E09174C /* Outfit-Thin.ttf */; };
-		B2BE0205EB144F7CA898EBAF /* Outfit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FB19545E9E14ADBB6C49E30 /* Outfit-Black.ttf */; };
-		DC1400EAB42745718B2E84A1 /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A05EF47AEC640C29850D853 /* Outfit-SemiBold.ttf */; };
-		DFF12741367A489DA9831AE8 /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCADF2039B74FB1A378E3E2 /* Outfit-Bold.ttf */; };
+		B64E57B1EECEA6B623B47CA4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9952DA31A065C6F696480C41 /* PrivacyInfo.xcprivacy */; };
+		BAE081FBC1D04344A261821A /* Outfit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8808B09171A6410A9BB009A0 /* Outfit-Thin.ttf */; };
+		BE4636D6E61244A8BEB1F093 /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50F8560F8684AA88ED0F586 /* Outfit-Bold.ttf */; };
+		D4EE26FA3F5F4CEA868CD8D1 /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92EE2808276C41C084B6333E /* Outfit-SemiBold.ttf */; };
+		E485F20AD6FD4574A0A4CF3B /* Outfit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E547BB6ED2684F81B6ABEDE3 /* Outfit-Black.ttf */; };
+		FDABFC4A84424450B6272477 /* Outfit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DBA4C32A4B9411EA4C977CD /* Outfit-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		00E356EE1AD99517003FC87E /* RNAudioTranscriberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAudioTranscriberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNAudioTranscriberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAudioTranscriberTests.m; sourceTree = "<group>"; };
-		06D495FB697D4883B9943E73 /* Outfit-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-ExtraLight.ttf"; path = "../assets/fonts/Outfit-ExtraLight.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNAudioTranscriber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNAudioTranscriber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNAudioTranscriber/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNAudioTranscriber/AppDelegate.mm; sourceTree = "<group>"; };
@@ -49,24 +48,26 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNAudioTranscriber/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNAudioTranscriber/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RNAudioTranscriber/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19C71ADE1FCC4316A5357567 /* Outfit-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Light.ttf"; path = "../assets/fonts/Outfit-Light.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNAudioTranscriber-RNAudioTranscriberTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAudioTranscriber-RNAudioTranscriberTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BFCB436764245069E09174C /* Outfit-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Thin.ttf"; path = "../assets/fonts/Outfit-Thin.ttf"; sourceTree = "<group>"; };
-		31F34762349A4A62B311DFEA /* Outfit-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Medium.ttf"; path = "../assets/fonts/Outfit-Medium.ttf"; sourceTree = "<group>"; };
-		337D089A2CE5EC710000AF1D /* RNAudioTranscriber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNAudioTranscriber-Bridging-Header.h"; sourceTree = "<group>"; };
-		337D089B2CE5EC710000AF1D /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
-		3A05EF47AEC640C29850D853 /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-SemiBold.ttf"; path = "../assets/fonts/Outfit-SemiBold.ttf"; sourceTree = "<group>"; };
+		337D089D2CE6286D0000AF1D /* RNAudioTranscriber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNAudioTranscriber-Bridging-Header.h"; sourceTree = "<group>"; };
+		337D089E2CE6286D0000AF1D /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNAudioTranscriber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAudioTranscriber.debug.xcconfig"; path = "Target Support Files/Pods-RNAudioTranscriber/Pods-RNAudioTranscriber.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNAudioTranscriber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAudioTranscriber.release.xcconfig"; path = "Target Support Files/Pods-RNAudioTranscriber/Pods-RNAudioTranscriber.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNAudioTranscriber-RNAudioTranscriberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAudioTranscriber-RNAudioTranscriberTests.debug.xcconfig"; path = "Target Support Files/Pods-RNAudioTranscriber-RNAudioTranscriberTests/Pods-RNAudioTranscriber-RNAudioTranscriberTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNAudioTranscriber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAudioTranscriber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D4D297BD49C44CB9B03C8C0 /* Outfit-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Regular.ttf"; path = "../assets/fonts/Outfit-Regular.ttf"; sourceTree = "<group>"; };
-		7FB19545E9E14ADBB6C49E30 /* Outfit-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Black.ttf"; path = "../assets/fonts/Outfit-Black.ttf"; sourceTree = "<group>"; };
+		6DBA4C32A4B9411EA4C977CD /* Outfit-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-ExtraBold.ttf"; path = "../assets/fonts/Outfit-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNAudioTranscriber/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85965BF76DEE496CAC83F307 /* Outfit-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-ExtraBold.ttf"; path = "../assets/fonts/Outfit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8808B09171A6410A9BB009A0 /* Outfit-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Thin.ttf"; path = "../assets/fonts/Outfit-Thin.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNAudioTranscriber-RNAudioTranscriberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAudioTranscriber-RNAudioTranscriberTests.release.xcconfig"; path = "Target Support Files/Pods-RNAudioTranscriber-RNAudioTranscriberTests/Pods-RNAudioTranscriber-RNAudioTranscriberTests.release.xcconfig"; sourceTree = "<group>"; };
-		8DCADF2039B74FB1A378E3E2 /* Outfit-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Bold.ttf"; path = "../assets/fonts/Outfit-Bold.ttf"; sourceTree = "<group>"; };
+		92EE2808276C41C084B6333E /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-SemiBold.ttf"; path = "../assets/fonts/Outfit-SemiBold.ttf"; sourceTree = "<group>"; };
+		94BF2E6E23934107BB42CD61 /* Outfit-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Regular.ttf"; path = "../assets/fonts/Outfit-Regular.ttf"; sourceTree = "<group>"; };
+		9952DA31A065C6F696480C41 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = RNAudioTranscriber/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DEA0746F04514DFEA9A3FFE6 /* Outfit-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-ExtraLight.ttf"; path = "../assets/fonts/Outfit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E3B8CC51FCCB45D5B27B29FA /* Outfit-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Light.ttf"; path = "../assets/fonts/Outfit-Light.ttf"; sourceTree = "<group>"; };
+		E547BB6ED2684F81B6ABEDE3 /* Outfit-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Black.ttf"; path = "../assets/fonts/Outfit-Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F29D7ED972604FB2AAD0D103 /* Outfit-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Medium.ttf"; path = "../assets/fonts/Outfit-Medium.ttf"; sourceTree = "<group>"; };
+		F50F8560F8684AA88ED0F586 /* Outfit-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Bold.ttf"; path = "../assets/fonts/Outfit-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				9952DA31A065C6F696480C41 /* PrivacyInfo.xcprivacy */,
 			);
 			name = RNAudioTranscriber;
 			sourceTree = "<group>";
@@ -140,15 +142,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				337D089B2CE5EC710000AF1D /* dummy.swift */,
+				337D089E2CE6286D0000AF1D /* dummy.swift */,
 				13B07FAE1A68108700A75B9A /* RNAudioTranscriber */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNAudioTranscriberTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				EC7A6BDE4F85495DADE0F3CA /* Resources */,
-				337D089A2CE5EC710000AF1D /* RNAudioTranscriber-Bridging-Header.h */,
+				C6516558BF404FEF8D412F1E /* Resources */,
+				337D089D2CE6286D0000AF1D /* RNAudioTranscriber-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -175,18 +177,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		EC7A6BDE4F85495DADE0F3CA /* Resources */ = {
+		C6516558BF404FEF8D412F1E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7FB19545E9E14ADBB6C49E30 /* Outfit-Black.ttf */,
-				8DCADF2039B74FB1A378E3E2 /* Outfit-Bold.ttf */,
-				85965BF76DEE496CAC83F307 /* Outfit-ExtraBold.ttf */,
-				06D495FB697D4883B9943E73 /* Outfit-ExtraLight.ttf */,
-				19C71ADE1FCC4316A5357567 /* Outfit-Light.ttf */,
-				31F34762349A4A62B311DFEA /* Outfit-Medium.ttf */,
-				6D4D297BD49C44CB9B03C8C0 /* Outfit-Regular.ttf */,
-				3A05EF47AEC640C29850D853 /* Outfit-SemiBold.ttf */,
-				1BFCB436764245069E09174C /* Outfit-Thin.ttf */,
+				E547BB6ED2684F81B6ABEDE3 /* Outfit-Black.ttf */,
+				F50F8560F8684AA88ED0F586 /* Outfit-Bold.ttf */,
+				6DBA4C32A4B9411EA4C977CD /* Outfit-ExtraBold.ttf */,
+				DEA0746F04514DFEA9A3FFE6 /* Outfit-ExtraLight.ttf */,
+				E3B8CC51FCCB45D5B27B29FA /* Outfit-Light.ttf */,
+				F29D7ED972604FB2AAD0D103 /* Outfit-Medium.ttf */,
+				94BF2E6E23934107BB42CD61 /* Outfit-Regular.ttf */,
+				92EE2808276C41C084B6333E /* Outfit-SemiBold.ttf */,
+				8808B09171A6410A9BB009A0 /* Outfit-Thin.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -286,16 +288,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				4627EC260610CF5A953A1FA5 /* PrivacyInfo.xcprivacy in Resources */,
-				B2BE0205EB144F7CA898EBAF /* Outfit-Black.ttf in Resources */,
-				DFF12741367A489DA9831AE8 /* Outfit-Bold.ttf in Resources */,
-				3D3689166761490FA9451600 /* Outfit-ExtraBold.ttf in Resources */,
-				06E3401724FE4B74AE6D6CED /* Outfit-ExtraLight.ttf in Resources */,
-				452D6EA24A5A47408DB81767 /* Outfit-Light.ttf in Resources */,
-				910D1465379049A0A481B1F6 /* Outfit-Medium.ttf in Resources */,
-				8CB8A94971E842B0AB38A8F0 /* Outfit-Regular.ttf in Resources */,
-				DC1400EAB42745718B2E84A1 /* Outfit-SemiBold.ttf in Resources */,
-				AEBB089BFD6141EDA2FD6DEB /* Outfit-Thin.ttf in Resources */,
+				B64E57B1EECEA6B623B47CA4 /* PrivacyInfo.xcprivacy in Resources */,
+				E485F20AD6FD4574A0A4CF3B /* Outfit-Black.ttf in Resources */,
+				BE4636D6E61244A8BEB1F093 /* Outfit-Bold.ttf in Resources */,
+				FDABFC4A84424450B6272477 /* Outfit-ExtraBold.ttf in Resources */,
+				3F9A48E448D9493AAB0470D9 /* Outfit-ExtraLight.ttf in Resources */,
+				62D4462E2176495E88DF1145 /* Outfit-Light.ttf in Resources */,
+				203FDFE5C2B54990946150A1 /* Outfit-Medium.ttf in Resources */,
+				726B739345704EBABCC7DDB4 /* Outfit-Regular.ttf in Resources */,
+				D4EE26FA3F5F4CEA868CD8D1 /* Outfit-SemiBold.ttf in Resources */,
+				BAE081FBC1D04344A261821A /* Outfit-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				337D089C2CE5EC710000AF1D /* dummy.swift in Sources */,
+				337D089F2CE6286D0000AF1D /* dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +474,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = RNAudioTranscriberTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,7 +498,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RNAudioTranscriberTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +524,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNAudioTranscriber/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,7 +551,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = RNAudioTranscriber/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -573,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -600,6 +601,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -618,7 +620,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -653,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -680,6 +685,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -691,7 +697,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
