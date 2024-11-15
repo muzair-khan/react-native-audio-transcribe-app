@@ -1,10 +1,9 @@
 import Slider from '@react-native-community/slider';
-import React, {JSX, useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import TrackPlayer, {
   Event,
   PlaybackState,
-  Progress,
   State,
   usePlaybackState,
   useProgress,
@@ -19,7 +18,7 @@ const setupPlayer = async (): Promise<void> => {
   await TrackPlayer.setupPlayer({});
 
   const track = {
-    url: require('./../../assets/audio/example_audio.mp3'), // Load media from the file system
+    url: require('./../../assets/audio/example_audio.mp3'),
     title: 'Example Audio',
     artist: 'React Native',
     artwork: '',
@@ -29,7 +28,9 @@ const setupPlayer = async (): Promise<void> => {
   await TrackPlayer.add([track]);
 };
 
-const togglePlayback = async (playbackState): Promise<void> => {
+const togglePlayback = async (
+  playbackState: PlaybackState | {state: undefined},
+): Promise<void> => {
   if (
     playbackState.state === State.Paused ||
     playbackState.state === State.Stopped
@@ -40,44 +41,24 @@ const togglePlayback = async (playbackState): Promise<void> => {
   }
 };
 
-const AudioPlayer = (): JSX.Element => {
-  const playbackState:
-    | PlaybackState
-    | {
-        state: undefined;
-      } = usePlaybackState();
-  const progress: Progress = useProgress();
+const AudioPlayer: React.FC = () => {
+  const playbackState = usePlaybackState();
+  const progress = useProgress();
 
-  useTrackPlayerEvents(
-    [Event.PlaybackActiveTrackChanged, Event.PlaybackQueueEnded],
-    async event => {
-      // if (
-      //   event.type === Event.PlaybackActiveTrackChanged &&
-      //   event.track !== null
-      // ) {
-      //   const {title, artwork, artist} = await TrackPlayer.getTrack(
-      //     event.index as number,
-      //   );
-      // } else if (event.type === Event.PlaybackQueueEnded) {
-      //   console.log('Track completed. Stopping playback...');
-      //   await TrackPlayer.stop(); // Stop playback when the track ends
-      // }
+  const [sequence, setSequence] = useState<IPhrase[]>([]);
+  const [currentPhraseIndex, setCurrentPhraseIndex] = useState<number>(0);
 
-      if (event.type === Event.PlaybackQueueEnded) {
-        console.log('Track completed. Stopping playback...');
-        await TrackPlayer.stop(); // Stop playback when the track ends
-      }
-    },
-  );
-
-  const [sequence, setSequence] = useState([]);
-  const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
+  useTrackPlayerEvents([Event.PlaybackQueueEnded], async event => {
+    if (event.type === Event.PlaybackQueueEnded) {
+      console.log('Track completed. Stopping playback...');
+      await TrackPlayer.stop();
+    }
+  });
 
   useEffect(() => {
     setupPlayer();
 
-    // Combine phrases into a single sequence
-    const combinedSequence = [];
+    const combinedSequence: IPhrase[] = [];
     const maxLength = Math.max(
       exampleData.speakers[0].phrases.length,
       exampleData.speakers[1].phrases.length,
@@ -96,10 +77,9 @@ const AudioPlayer = (): JSX.Element => {
   }, []);
 
   useEffect(() => {
-    // Update the current phrase index based on the playback position
-    if (!sequence.length) return;
+    if (sequence.length === 0) return;
 
-    let elapsed = progress.position * 1000; // Convert to milliseconds
+    const elapsed = progress.position * 1000; // Convert to milliseconds
     let cumulativeTime = 0;
 
     for (let i = 0; i < sequence.length; i++) {
@@ -115,8 +95,8 @@ const AudioPlayer = (): JSX.Element => {
     }
   }, [progress.position, sequence]);
 
-  const handleRewind = async () => {
-    if (sequence.length > 0 && currentPhraseIndex >= 0) {
+  const handleRewind = async (): Promise<void> => {
+    if (currentPhraseIndex >= 0) {
       const elapsedTime =
         sequence
           .slice(0, currentPhraseIndex)
@@ -127,8 +107,8 @@ const AudioPlayer = (): JSX.Element => {
     }
   };
 
-  const handleForward = async () => {
-    if (sequence.length > 0 && currentPhraseIndex < sequence.length - 1) {
+  const handleForward = async (): Promise<void> => {
+    if (currentPhraseIndex < sequence.length - 1) {
       const elapsedTime =
         sequence
           .slice(0, currentPhraseIndex + 1)
@@ -139,7 +119,6 @@ const AudioPlayer = (): JSX.Element => {
     }
   };
 
-  // Show play button in Stopped state
   const isPlayButtonVisible =
     playbackState.state === State.Paused ||
     playbackState.state === State.Ready ||

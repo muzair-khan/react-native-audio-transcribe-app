@@ -15,6 +15,11 @@ declare global {
     text: string;
     onPress?: () => void;
   }
+
+  interface IPhrase {
+    words: string;
+    time: number;
+  }
 }
 
 export {};

@@ -4,19 +4,15 @@ import {useProgress} from 'react-native-track-player';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {AudioPlayer, Header, Transcript} from './components';
 import {Colors as AppColor} from './utils/colors';
-
-// Import the example data
 import exampleData from './utils/example_audio.json';
 
-const App = (): React.JSX.Element => {
+const App: React.FC = () => {
   const progress = useProgress();
-
-  const [sequence, setSequence] = useState([]);
-  const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
+  const [sequence, setSequence] = useState<IPhrase[]>([]);
+  const [currentPhraseIndex, setCurrentPhraseIndex] = useState<number>(0);
 
   useEffect(() => {
-    // Combine phrases into a single sequence based on the order
-    const combinedSequence = [];
+    const combinedSequence: IPhrase[] = [];
     const maxLength = Math.max(
       exampleData.speakers[0].phrases.length,
       exampleData.speakers[1].phrases.length,
@@ -35,10 +31,9 @@ const App = (): React.JSX.Element => {
   }, []);
 
   useEffect(() => {
-    if (!sequence.length) return;
+    if (sequence.length === 0) return;
 
-    // Determine the current phrase based on the audio progress
-    let elapsed = progress.position * 1000; // Convert to milliseconds
+    const elapsed = progress.position * 1000; // Convert to milliseconds
     let cumulativeTime = 0;
 
     for (let i = 0; i < sequence.length; i++) {
@@ -56,7 +51,7 @@ const App = (): React.JSX.Element => {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar barStyle={'dark-content'} backgroundColor={Colors.lighter} />
+      <StatusBar barStyle="dark-content" backgroundColor={Colors.lighter} />
       <Header />
       <ScrollView showsVerticalScrollIndicator={false}>
         {sequence.map((phrase, i) => (
@@ -83,9 +78,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#FAFAFA',
   },
   highlightText: {
-    color: AppColor.amberYellow, // Highlight text color
+    color: AppColor.amberYellow,
   },
   highlightContainer: {
-    backgroundColor: AppColor.lavenderBlue, // Highlight container background
+    backgroundColor: AppColor.lavenderBlue,
   },
 });
