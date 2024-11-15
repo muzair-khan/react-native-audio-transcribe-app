@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   text: {
     fontFamily: 'Outfit-SemiBold',
     fontSize: 15,
-    borderRadius: 20,
+    borderRadius: 10,
   },
   bgAlign: {
     textAlign: 'center',
